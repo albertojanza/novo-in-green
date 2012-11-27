@@ -36,8 +36,9 @@ img.footer-image {
 	width: 100%;
 	position: absolute;
 	bottom:0;
-
-z-index:-1;
+  height:516px;
+  margin-top: -516px;
+  z-index:-1;
 }
 
 /* Another option to implement the background image at the bottom of the page */
@@ -53,27 +54,22 @@ background-image: url(images/footer.png);
 background-size: cover;
 }
 
-/* Adjusting margins and paddings */
+/* Adjusting margins and paddings. Removing borders. */
 #header{padding:0;}
+.entry img{border:0;}
+#loopedSlider {
+margin: 0 auto 20px;
+}
 
+#footer-widgets {
+padding-top: 80px;
+border:0;
+}
+.widget h3 {
+border:0;
+}
 
-
-
-
-
-
-/* CODE in the footer
-
-<!--img class="footer-image" src="wp-content/themes/canvas/images/footer.png" alt="" /-->
-<div class="alberto">
-	
-	</div>	
-
-*/
-
-
-
-
+/* Failed implementation
 body{ 
 background-image: url(images/footer.png);
 background-repeat:no-repeat;
@@ -81,3 +77,4 @@ background-attachment:scroll;
 background-position:center bottom; 
 background-size: auto 516px;
 }
+*/

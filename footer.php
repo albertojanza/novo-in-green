@@ -25,7 +25,7 @@
 			<?php woo_footer_right(); ?>
 		</div>
 	
-<img class="footer-image" src="wp-content/themes/canvas/images/footer.png" alt="">
+<img class="footer-image" src="/wp-content/themes/canvas/images/footer.png" alt="">
 
 	</div><!-- /#footer  -->
 	
@@ -40,3 +40,4 @@
 	
 	</body>
 </html>
+
