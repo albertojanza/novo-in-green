@@ -1,0 +1,83 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles at the end of this file instead 
+of style.css so it is easier to update the theme. 
+Simply copy an existing style from style.css to this file, 
+and modify it to your liking.
+*/
+
+
+/* Applying the Bottom background */
+
+body{padding:0}
+
+#wrapper {
+margin: 0;
+width:100%;
+max-width:3000px;
+padding:0;
+}
+#header, #navigation, #content {
+margin: 0 auto;
+max-width: 960px;
+}
+
+#footer{
+position:relative;
+max-width: 3333px;
+}
+
+
+img.footer-image {
+	width: 100%;
+	position: absolute;
+	bottom:0;
+
+z-index:-1;
+}
+
+/* Another option to implement the background image at the bottom of the page */
+.alberto{
+position:absolute;
+
+height:516px;
+width:100%;
+bottom:0;
+margin-top: -516px;
+z-index:-1;
+background-image: url(images/footer.png);
+background-size: cover;
+}
+
+/* Adjusting margins and paddings */
+#header{padding:0;}
+
+
+
+
+
+
+
+/* CODE in the footer
+
+<!--img class="footer-image" src="wp-content/themes/canvas/images/footer.png" alt="" /-->
+<div class="alberto">
+	
+	</div>	
+
+*/
+
+
+
+
+body{ 
+background-image: url(images/footer.png);
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-position:center bottom; 
+background-size: auto 516px;
+}
