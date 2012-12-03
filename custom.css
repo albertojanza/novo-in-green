@@ -70,12 +70,20 @@ border:0;
 }
 
 
+
+
 /* Formstack */
+
+.fsSubmitButton{background-color: #a3a64d;padding:10px !important;}
+
+.fsSupporting {color:black !important;}
+
 .fsForm .fsCell{padding: 9px 18px 0 18px !important;}
 
 
 .entry table td{
 	background-color: #a3a64d;
+
 }
 .entry table span{
 	background-color:transparent !important;
@@ -92,6 +100,7 @@ border:0;
 }
 .fsSectionText span{
 background-color: #a3a64d !important;
+
 
 }
 
@@ -112,7 +121,7 @@ p span span span{color:black !important;}
 
 
 table{ border:1px solid #a3a64d !important; margin-bottom:20px !important;}
-.alt-table-row,.fsRowBottom{display:none};
+.fsRowBottom,.fsRowClose,.fsRowOpen {display:none};
 
 
 
