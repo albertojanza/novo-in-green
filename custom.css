@@ -71,6 +71,9 @@ border:0;
 
 
 /* Formstack */
+.fsForm .fsCell{padding: 9px 18px 0 18px !important;}
+
+
 .entry table td{
 	background-color: #a3a64d;
 }
@@ -105,6 +108,12 @@ font: bold 20px/1.1em 'Kreon', arial, sans-serif !important;
 span.fsLabel, label.fsSupporting{
 font-family: Verdana, Geneva, sans-serif;
 }
+p span span span{color:black !important;}
+
+
+table{ border:1px solid #a3a64d !important; margin-bottom:20px !important;}
+.alt-table-row,.fsRowBottom{display:none};
+
 
 
 
