@@ -69,6 +69,31 @@ border:0;
 border:0;
 }
 
+/* Formstack */
+.fsTable .fsSectionRow td.fsRowBody {
+	background-image: none;
+	background-color: #a3a64d;
+}
+.fsTable .fsFieldRow td.fsRowBody {
+	background-color: #f6f8d5;
+}
+.fsTable .fsSpacerRow td.fsRowBody {
+	background-color: #f6f8d5;
+}
+.fsSectionText span{
+background-color: #a3a64d !important;
+
+}
+
+.fsSectionText p span span span span span span{
+color: #EE893F !important;
+}
+
+.fsSectionText strong,.fsSectionText strong span {
+color: #EE893F !important;
+}
+
+
 /* Failed implementation
 body{ 
 background-image: url(images/footer.png);
