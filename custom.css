@@ -123,8 +123,10 @@ p span span span{color:black !important;}
 table{ border:1px solid #a3a64d !important; margin-bottom:20px !important;}
 .fsRowBottom,.fsRowClose,.fsRowOpen {display:none};
 
-
-
+/* Anchors in the page: Come grow with us at Novotorium */
+.threecol-one a, .fourcol-one a{color:#EE893F;}
+.threecol-one a, .fourcol-one a:link{color:#EE893F;}
+.threecol-one a, .fourcol-one a:visited{color:#EE893F;}
 
 /* Failed implementation
 body{ 
