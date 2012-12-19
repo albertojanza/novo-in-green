@@ -36,8 +36,8 @@ img.footer-image {
 	width: 100%;
 	position: absolute;
 	bottom:0;
-  height:516px;
-  margin-top: -516px;
+  height:576px;
+  margin-top: -576px;
   z-index:-1;
 }
 
