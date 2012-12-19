@@ -127,6 +127,8 @@ table{ border:1px solid #a3a64d !important; margin-bottom:20px !important;}
 .threecol-one a, .fourcol-one a{color:#EE893F;}
 .threecol-one a, .fourcol-one a:link{color:#EE893F;}
 .threecol-one a, .fourcol-one a:visited{color:#EE893F;}
+/* Partners page */
+.partners-column {float:left;width:33%;}
 
 /* Failed implementation
 body{ 
