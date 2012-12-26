@@ -144,6 +144,12 @@ background-repeat:no-repeat;
 background-size: auto auto;
 }
 
+/* dropdown submenus */
+@media only screen and (min-width: 768px) {
+ul.nav ul.sub-menu{margin-top:-20px}
+ul.nav ul.sub-menu li a { padding: 0.4em 1em!important;}
+}
+
 /* Failed implementation
 body{ 
 background-image: url(images/footer.png);
