@@ -150,6 +150,35 @@ ul.nav ul.sub-menu{margin-top:-20px}
 ul.nav ul.sub-menu li a { padding: 0.4em 1em!important;}
 }
 
+/* SubmitButtons */
+
+#contactForm .buttons .submit,body #wrapper #content #respond .form-submit input#submit:active {
+border-style:none !important;
+width: 231px !important;
+height:51px !important;
+background-image: url(http://novotorium.com/wp-content/uploads/2012/12/Submit-to-Novotorium.png) !important;
+font-size: 0px !important;
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(255, 255, 255, 0.1) !important;
+-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(255, 255, 255, 0.1) !important;
+-webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(255, 255, 255, 0.1) !important;
+}
+
+.fsSubmitButton{
+
+border-style:none;
+width: 231px;
+height:51px;
+background-image: url(http://novotorium.com/wp-content/uploads/2012/12/Submit-to-Novotorium.png);
+}
+
+#fsSubmit1124218 input {
+font-size: 0px;
+}
+#fsSubmit1124218 input:hover {
+cursor:pointer
+}
+
+
 /* Failed implementation
 body{ 
 background-image: url(images/footer.png);
