@@ -178,6 +178,12 @@ font-size: 0px;
 cursor:pointer
 }
 
+/* Twitter widget */
+
+.widget_woo_twitter ul li .content {
+font: normal 12px/1.5em Verdana, Geneva, sans-serif !important;
+}
+
 
 /* Failed implementation
 body{ 
